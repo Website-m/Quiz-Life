@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #83A6CE;
+}
+.header {
+    background-color: #0B1B32;
+    padding: 20px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    top: 0;
+    position: fixed;
+}
+.logo {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.logo span {
+    color: #FDA481;
+}
+.clicker {
+    color: #000000;
+    background-color: #83A6CE;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.clicker:hover {
+    color: white;
+    background-color: #44174E;
+}
+.clicker:active {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+html {
+    scroll-behavior: smooth;
+}

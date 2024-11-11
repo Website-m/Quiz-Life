@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+h2 {
+    color: black;
+    font-size: 20px;
+}
+img {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 45%;
+    margin-left: 10px;
+}
+.setA {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    margin-top: 100px;
+}
+.boxA {
+    background-color: #0B1B32;
+    padding: 10px 20px;
+    width: 35%;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 25px;
+}
+.boxA h3 {
+    color: white;
+    font-size: 24px;
+}
+.boxA p {
+    color: white;
+    font-size: 16px;
+}
+.boxB {
+    background-color: #0B1B32;
+    padding: 10px 20px;
+    width: 35%;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 50px;
+}
+.boxB h3 {
+    color: white;
+    font-size: 24px;
+}
+.boxB p {
+    color: white;
+    font-size: 14px;
+}
+.boxC {
+    background-color: #0B1B32;
+    padding: 10px 20px;
+    width: 35%;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 25px;
+}
+.boxC h3 {
+    color: white;
+    font-size: 20px;
+}
+.boxC p {
+    color: white;
+    font-size: 14px;
+}
+.boxD {
+    background-color: #0B1B32;
+    padding: 10px 20px;
+    width: 35%;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-align: center;
+    margin-left: 50px;
+}
+.boxD h3 {
+    color: white;
+    font-size: 20px;
+}
+.boxD p {
+    color: white;
+    font-size: 14px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.box-sing {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}

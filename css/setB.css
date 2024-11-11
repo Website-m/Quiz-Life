@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.for-head {
+    background-color: #0B1B32;
+    padding: 20px 100px;
+    text-align: center;
+}
